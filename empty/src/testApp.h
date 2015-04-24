@@ -13,8 +13,6 @@
 #define MAX_DEVICES 2
 
 
-
-
 class testApp : public ofBaseApp{
 
 public:
@@ -39,7 +37,8 @@ public:
     int numDevices;
         ofxOpenNI openNIDevices[MAX_DEVICES];
     
-   
+    ofxOpenNIUser user;
+
     void userEvent(ofxOpenNIUserEvent & event);
 
 //-------------character variables
@@ -58,8 +57,7 @@ public:
    
    
   //  ofRectangle lantern;
-    ofImage net;
-    ofImage lantern;
+  
     
     ofFirefly fly[NFLIES];
     vector<ofFirefly> mFlies;
@@ -71,13 +69,19 @@ public:
     
     int newFly;
     
-//--------------screens variables
+//--------------images initialisation
     ofImage beanstalk;
     ofImage nubes;
     ofImage intro;
     ofImage mayorscreen;
-    ofImage jungle;
-    ofImage pandora [5];
+    ofImage forest;
+    ofImage net;
+    ofImage lantern;
+    ofImage layer1;
+    ofImage layer2;
+    ofImage layer3;
+    ofImage key;
+    ofImage credits;
   
 //--------------swimming gesture
     bool wasLeftArmUp, wasRightArmUp;
@@ -92,6 +96,16 @@ public:
     ofSoundPlayer mayor;
     ofSoundPlayer main;
     ofSoundPlayer fireflies;
+    ofSoundPlayer roar;
+    
+//---------------------lantern variables
+    float  keyX;
+    float  keyY;
+    
+    float speedx;
+    float speedy;
+    
+    int bCount;
   
     
 // ----------------------------- JAVERIYAH: ANIMATION VARIABLES ------------------ //

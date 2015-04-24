@@ -17,7 +17,7 @@ void Character::setup(){
 void Character::torso(ofImage img, ofVec3f position){
     
     ofPushMatrix();
-    img.draw(position.x + 10, position.y + 180, 300, 350);
+    img.draw(position.x + 10, position.y + 220, 300, 450);
     ofPopMatrix();
     
 }
@@ -187,9 +187,9 @@ void Character::rightUpLeg(ofImage img, ofVec3f refPos, ofVec3f jointPos){
     
     ofPushMatrix();
     ofTranslate(jointPos.x, jointPos.y);
-    ofRotate(-25, 0, 0, 1);
-    ofRotate(-angle, 0, 0, 1);
-    img.draw(0, 50, 110, 110);
+   // ofRotate(-25, 0, 0, 1);
+   // ofRotate(-angle, 0, 0, 1);
+    img.draw(0, 0, 100, 260);
     ofPopMatrix();
     
     ofPopStyle();
@@ -211,9 +211,9 @@ void Character::leftUpLeg(ofImage img, ofVec3f refPos, ofVec3f jointPos){
     
     ofPushMatrix();
     ofTranslate(jointPos.x, jointPos.y);
-    ofRotate(20, 0, 0, 1);
-    ofRotate(-angle, 0, 0, 1);
-    img.draw(0, 50, 110, 110);
+  //  ofRotate(20, 0, 0, 1);
+   // ofRotate(-angle, 0, 0, 1);
+    img.draw(0, 0, 100, 260);
     ofPopMatrix();
     
     ofPopStyle();

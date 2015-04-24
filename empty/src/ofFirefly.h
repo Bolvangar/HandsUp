@@ -29,16 +29,17 @@ public:
     float speedX;
     float speedY;
     int dim;
+    ofImage fly;
 
-    bool keepFlying;
+    bool keepFlying = true;
     bool GetAlive();
     void SetAlive(bool b);
     void caught(float _x, float _y);
     bool inNet;
+    bool isAlive;
     
     private:
     
-    bool isAlive;
     int noiseAdd;
 };
 
