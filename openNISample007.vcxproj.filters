@@ -9,6 +9,8 @@
     <ClCompile Include="..\..\..\addons\ofxOpenNI\src\ofxOpenNITypes.cpp">
       <Filter>ofxOpenNI\src</Filter>
     </ClCompile>
+    <ClCompile Include="src\Character.cpp" />
+    <ClCompile Include="src\ofFirefly.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\testApp.h" />
@@ -402,6 +404,8 @@
     <ClInclude Include="..\..\..\addons\ofxOpenNI\src\ofxOpenNIUtils.h">
       <Filter>ofxOpenNI\src</Filter>
     </ClInclude>
+    <ClInclude Include="src\Character.h" />
+    <ClInclude Include="src\ofFirefly.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="ofxOpenNI">

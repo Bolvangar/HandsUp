@@ -5,38 +5,38 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>C9B8CABE-A427-4C17-97C9-C1299077CA9A</string>
+	<string>6E1F048A-F16D-49A5-ADF7-E694830A1EFD</string>
 	<key>IDESourceControlProjectName</key>
 	<string>openNiSample007</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>109EF967-3706-45C8-B302-CA2E60E03CA1</key>
-		<string>https://github.com/openframeworks/openFrameworks.git</string>
-		<key>6DD80B9C-C5D6-40A4-B655-45A61433A782</key>
+		<key>1654A7E9-2503-4C57-A70D-223288181150</key>
 		<string>https://github.com/gameoverhack/ofxOpenNI.git</string>
+		<key>75F21517-C013-4984-8B20-541AB6F7EC0A</key>
+		<string>https://github.com/openframeworks/openFrameworks.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>apps/myApps/openNi/opeNI-SimpleExamples/openNiSample007.xcodeproj/project.xcworkspace</string>
+	<string>apps/myApps/opeNI-SimpleExamples/openNiSample007.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>109EF967-3706-45C8-B302-CA2E60E03CA1</key>
-		<string>../../../../../..</string>
-		<key>6DD80B9C-C5D6-40A4-B655-45A61433A782</key>
+		<key>1654A7E9-2503-4C57-A70D-223288181150</key>
 		<string>../../../../../addons/ofxOpenNI</string>
+		<key>75F21517-C013-4984-8B20-541AB6F7EC0A</key>
+		<string>../../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/openframeworks/openFrameworks.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>109EF967-3706-45C8-B302-CA2E60E03CA1</string>
+	<string>75F21517-C013-4984-8B20-541AB6F7EC0A</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>6DD80B9C-C5D6-40A4-B655-45A61433A782</string>
+			<string>1654A7E9-2503-4C57-A70D-223288181150</string>
 			<key>IDESourceControlWCCName</key>
 			<string>ofxOpenNI</string>
 		</dict>
@@ -44,9 +44,9 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>109EF967-3706-45C8-B302-CA2E60E03CA1</string>
+			<string>75F21517-C013-4984-8B20-541AB6F7EC0A</string>
 			<key>IDESourceControlWCCName</key>
-			<string>openframeworks_git</string>
+			<string>openFrameworks</string>
 		</dict>
 	</array>
 </dict>
