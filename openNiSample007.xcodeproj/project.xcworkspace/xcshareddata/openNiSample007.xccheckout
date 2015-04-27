@@ -5,27 +5,27 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>F183473D-52CC-4D58-8E7B-7510FAC2A86E</string>
+	<string>C9B8CABE-A427-4C17-97C9-C1299077CA9A</string>
 	<key>IDESourceControlProjectName</key>
 	<string>openNiSample007</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>109EF967-3706-45C8-B302-CA2E60E03CA1</key>
 		<string>https://github.com/openframeworks/openFrameworks.git</string>
-		<key>7A39CDD1-2929-4B1F-879C-7C5C79F72033</key>
-		<string>https://github.com/Bolvangar/HandsUp.git</string>
+		<key>6DD80B9C-C5D6-40A4-B655-45A61433A782</key>
+		<string>https://github.com/gameoverhack/ofxOpenNI.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>apps/myApps/HandsUp/opeNI-SimpleExamples/openNiSample007.xcodeproj/project.xcworkspace</string>
+	<string>apps/myApps/openNi/opeNI-SimpleExamples/openNiSample007.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>109EF967-3706-45C8-B302-CA2E60E03CA1</key>
 		<string>../../../../../..</string>
-		<key>7A39CDD1-2929-4B1F-879C-7C5C79F72033</key>
-		<string>../../..</string>
+		<key>6DD80B9C-C5D6-40A4-B655-45A61433A782</key>
+		<string>../../../../../addons/ofxOpenNI</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/Bolvangar/HandsUp.git</string>
+	<string>https://github.com/openframeworks/openFrameworks.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
@@ -36,9 +36,9 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>7A39CDD1-2929-4B1F-879C-7C5C79F72033</string>
+			<string>6DD80B9C-C5D6-40A4-B655-45A61433A782</string>
 			<key>IDESourceControlWCCName</key>
-			<string>HandsUp</string>
+			<string>ofxOpenNI</string>
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
